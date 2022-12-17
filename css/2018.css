@@ -2997,9 +2997,11 @@ padding:0 15px
     border: 0;
   }
   .navbar-brand {
-    padding: 15px;
+    padding-top: 15px;
+    max-width: 180px;
     background: none;
   }
+ 
   .navbar-brand img {
     max-width: 37%;
   }
@@ -3342,7 +3344,7 @@ padding:0 15px
   }
   /*.solution_bloc.office_bloc,.solution_bloc:nth-child(2n+1), .solution_bloc {margin:15px 0 40px 0}*/
   .slider .item .row-eq-height {
-    padding-top: 50px;
+    padding-top: 200px;
   }
   .slider .item .item_txt {
     transform: inherit;
