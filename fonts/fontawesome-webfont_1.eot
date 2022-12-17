@@ -1,0 +1,568 @@
+<!doctype html>  
+
+<!--[if IEMobile 7 ]> <html lang="en-US"class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="en-US" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Page not found - MicroEJ - Software-Defined Everything</title>	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="pingback" href="https://www.microej.com/xmlrpc.php">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MWZMSD8');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+<link rel="manifest" href="https://www.microej.com/wp-content/themes/wordpress-bootstrap-master/favicon/site.webmanifest?v=NmPk8pb2w0">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="../favicon.ico">
+<meta name="apple-mobile-web-app-title" content="MicroEJ">
+<meta name="application-name" content="MicroEJ">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="https://www.microej.com/wp-content/themes/wordpress-bootstrap-master/favicon/mstile-144x144.png?v=NmPk8pb2w0">
+<meta name="msapplication-config" content="https://www.microej.com/wp-content/themes/wordpress-bootstrap-master/favicon/browserconfig.xml?v=NmPk8pb2w0">
+<meta name="theme-color" content="#ffffff">
+
+
+
+		<!-- wordpress head functions -->
+		<meta name="robots" content="noindex, follow">
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="Page not found - MicroEJ - Software-Defined Everything">
+	<meta property="og:site_name" content="MicroEJ - Software-Defined Everything">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.microej.com/#website","url":"https://www.microej.com/","name":"MicroEJ - Software-Defined Everything","description":"Design performant, secure, reliable and future-proof electronic products thanks to MicroEJ, the &quot;tiny sibling of Android&quot; for home appliances, industrial gateways, wearables, smart printers, medical devices, smart city and more.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.microej.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.microej.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.5"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="codepeople-loading-page-style-css" href="../css/loading-page.css" type="text/css" media>
+<link rel="stylesheet" id="codepeople-loading-page-style-effect-css" href="../css/loading-page.css" type="text/css" media>
+<link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('fontawesome-webfont_1.eot#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('fontawesome-webfont_1.eot#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('fontawesome-webfont_1.eot#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('fontawesome-webfont_1.eot#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('fontawesome-webfont_1.eot#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('fontawesome-webfont_1.eot#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('fontawesome-webfont_1.eot#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('fontawesome-webfont_1.eot#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="../css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="collapscore-css-css" href="../css/core_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="collapseomatic-css-css" href="../css/light_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpbs-css" href="../css/styles.f6413c85.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpbs-style-css" href="../css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="../js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="../js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="../js/loading-logo.js" id="codepeople-loading-page-script-logo-js"></script>
+<script type="text/javascript" id="codepeople-loading-page-script-js-before">
+loading_page_settings={"loadingScreen":1,"closeBtn":true,"removeInOnLoad":false,"codeblock":"","backgroundColor":"rgba(255,255,255,.8)","foregroundColor":"#f76241","backgroundImage":"","additionalSeconds":0,"pageEffect":"none","backgroundRepeat":"repeat","fullscreen":0,"graphic":"logo","text":0,"lp_ls":{"logo":{"image":"https:\/\/www.microej.com\/wp-content\/uploads\/2018\/12\/mej.png"}},"screen_size":"all","screen_width":0,"deepSearch":0,"modifyDisplayRule":0};
+</script>
+<script type="text/javascript" src="../js/loading-page.min.js" id="codepeople-loading-page-script-js"></script>
+<script type="text/javascript" src="../js/modernizr.js" id="modernizr-js"></script>
+<link rel="https://api.w.org/" href="https://www.microej.com/wp-json/">
+        <script type="text/javascript">
+            var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = '1b3acb8e9d';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'https://www.microej.com/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}
+        </script>
+
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><script type="text/javascript" src="../js/2904.js" async="async"></script><style>body{visibility:hidden;}</style><noscript><style>body{visibility:visible;}</style></noscript><link rel="preload" href="https://www.microej.com/wp-content/uploads/2018/12/mej.png" as="image" type="image/svg+xml">		<!-- end of wordpress head -->
+		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
+			<!-- media-queries.js (fallback) -->
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
+		<![endif]-->
+
+		<!-- html5.js -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->	
+		
+			<!-- respond.js -->
+		<!--[if lt IE 9]>
+		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+			
+		<link rel="stylesheet" href="../css/2018.css">
+		<link rel="stylesheet" href="../css/lightbox.min.css">	
+		<link rel="stylesheet" href="../css/animate.min.css">
+		<link rel="stylesheet" href="../css/timeline2.css">	
+		<link rel="stylesheet" href="../css/odometer-theme-default.css">	
+		
+	</head>	
+	<body class="error404">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWZMSD8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	
+		<header role="banner" class="header ">
+			<div class="navbar navbar-fixed-top ">
+					<div class="navbar-header ">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand " title="Design performant, secure, reliable and future-proof electronic products thanks to MicroEJ, the &quot;tiny sibling of Android&quot; for home appliances, industrial gateways, wearables, smart printers, medical devices, smart city and more." href="https://www.microej.com">
+								<img src="../images/logo-avatar.png" alt="MicroEJ &#8211; Software-Defined Everything" class="logo_avatar">	
+								<img src="../images/logo-txt.png" alt="MicroEJ &#8211; Software-Defined Everything" class="logo_txt">						
+						</a>
+					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="collapse navbar-collapse navbar-responsive-collapse navbar-right">
+									<ul id="menu-menu" class="nav navbar-nav"><li id="menu-item-6" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions<span class="icon-caret"></span></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-solution"><a href="https://www.microej.com/solution/design-to-value/">Design-to-value</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-solution"><a href="https://www.microej.com/solution/ecosystem-management/">Ecosystem Management</a></li>
+	<li id="menu-item-10211" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/solution/embedded-gui/">Embedded GUI</a></li>
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-solution"><a href="https://www.microej.com/solution/opt-for-security-and-safety-in-iot/">Security</a></li>
+	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-solution"><a href="https://www.microej.com/solution/sensors-to-cloud/">Sensors to the Cloud</a></li>
+	<li id="menu-item-13607" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/solution/supply-chain-resilience/">Supply Chain Resilience</a></li>
+	<li id="menu-item-13924" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/solution/the-pace-of-innovation/">Innovation Pace</a></li>
+</ul>
+</li>
+<li id="menu-item-8" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Industry<span class="icon-caret"></span></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-market"><a href="https://www.microej.com/market/smart-homes-and-buildings/">Smart Home</a></li>
+	<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-market"><a href="https://www.microej.com/market/home-appliances/">Home Appliances</a></li>
+	<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-market"><a href="https://www.microej.com/market/wearables/">Wearables</a></li>
+	<li id="menu-item-8112" class="menu-item menu-item-type-post_type menu-item-object-market"><a href="https://www.microej.com/market/industry-4-0/">Industry &#038; Printers</a></li>
+	<li id="menu-item-11731" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/market/energy-utilities/">Energy &#038; Utilities</a></li>
+	<li id="menu-item-11789" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/market/medical-devices/">Medical Devices</a></li>
+</ul>
+</li>
+<li id="menu-item-9" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<span class="icon-caret"></span></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://www.microej.com/product/vee/">MICROEJ VEE</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://www.microej.com/product/sdk/">MICROEJ SDK</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://www.microej.com/product/forge/">MICROEJ Forge</a></li>
+</ul>
+</li>
+<li id="menu-item-289" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Business Ecosystem<span class="icon-caret"></span></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-9900" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/customer/">Customers</a></li>
+	<li id="menu-item-13270" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.microej.com/certified-partner/">Certified Partner</a></li>
+	<li id="menu-item-8986" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/partners/">All Partners</a></li>
+	<li id="menu-item-10465" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://developer.microej.com/">Developers</a></li>
+</ul>
+</li>
+<li id="menu-item-12184" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About us<span class="icon-caret"></span></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-9901" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/about-us/">About MicroEJ</a></li>
+	<li id="menu-item-13448" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/leadership-team/">Leadership Team</a></li>
+	<li id="menu-item-10050" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/press/#press_release">Press Releases</a></li>
+	<li id="menu-item-10055" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/press/#press_media">Press Coverage</a></li>
+	<li id="menu-item-12833" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.microej.com/press-room/">Press Room</a></li>
+	<li id="menu-item-13617" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.microej.com/job-openings/">Job Openings</a></li>
+</ul>
+</li>
+<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.microej.com/contact/">Contact</a></li>
+<li id="menu-item-291" class="demo_btn_menu menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.microej.com/contact/#form_1?demo=1">Request a Demo</a></li>
+<li id="menu-item-292" class="visible-xs col-xs-4 text-center bg_black white menu-item menu-item-type-custom menu-item-object-custom"><a href="/event/"><i class="icon icon-events"></i> Events</a></li>
+<li id="menu-item-7533" class="visible-xs col-xs-4 text-center bg_black white menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.microej.com/live/"><i class="icon icon-live"></i> Live</a></li>
+</ul>								</div>
+                            </div>
+						</div>
+					</div>	
+
+				
+				
+			</div> <!-- end .navbar -->
+		
+		</header> <!-- end header -->
+		
+<div class="container-fluid nopadding relative bg_black banner" style="background:url(../images/fond-paralaxe.jpg) no-repeat center center / cover">
+	<div class="container">
+		<span class="motif"></span>
+		<div class="row">
+			<div class="col-xs-12 banner_txt white text-center">
+				<p class>Error 404</p>
+			</div>	
+		</div>
+	</div>
+	<span class="svg_container svg_bottom">
+		<img src="courbe-haut.svg" class="svg_top">	
+	</span>
+</div>
+
+	<div class="container lines padded">		
+			<div id="content" class="clearfix row">
+			
+				<div id="main" class="col-sm-12 clearfix" role="main">
+
+					<article id="post-not-found" class="clearfix">
+						
+						<header>
+
+							<div class="hero-unit">
+							
+								<h1>Page Not Found</h1>
+								<p>This is embarassing. We can't find what you were looking for.</p>
+															
+							</div>
+													
+						</header> <!-- end article header -->
+					
+						<section class="post_content">
+							
+							<p>Whatever you were looking for was not found, but maybe try looking again or search using the form below.</p>
+
+							<div class="row">
+								<div class="col col-lg-12">
+									<form action="https://www.microej.com/" method="get" class="form-inline">
+    <fieldset>
+		<div class="input-group">
+			<input type="text" name="s" id="search" placeholder="Search" value class="form-control input-lg">
+			<span class="input-group-btn">
+				<button type="submit" class="btn btn-sm bg_orange white">Search</button>
+			</span>
+		</div>
+    </fieldset>
+</form>								</div>
+							</div>
+					
+						</section> <!-- end article section -->
+						
+						<footer>
+							
+						</footer> <!-- end article footer -->
+					
+					</article> <!-- end article -->
+			
+				</div> <!-- end #main -->
+    
+		</div>	
+	</div>
+
+<footer role="contentinfo" class="container-fluid footer bg_white white relative">
+	<span class="svg_container svg_top">
+				<img src="courbe-bas.svg" class="svg_top">	
+			</span>
+	<div class="container relative">
+		<img src="../images/mej.png" class="img-responsive logo_top" alt="Micro EJ">
+		<div class="row">
+			<div class="col-xs-12 text-center footer_contact padded">
+				<p>Want to know more about MicroEJ?</p>
+				<a href="https://www.microej.com/contact/" class="btn btn-lg bg_orange white">Contact us</a>
+			</div>
+		</div>
+		<hr>
+		<div class="row  foot_link">
+            			<div class="col-sm-12 col-md-7">
+				<div class="row">
+					<div class="col-sm-6 col-md-3 padded foot_link">
+						<p class="orange bold">Developer</p>
+						<ul class="list-unstyled">
+							<li><a href="https://developer.microej.com/" target="_blank">Developer center</a></li>
+							<li><a href="https://www.microej.com/contact/#form_2">Support</a></li>
+							<li><a href="https://forum.microej.com/" target="_blank">Forum</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-3 padded foot_link">
+						<p class="orange bold">Products</p>
+						<ul class="list-unstyled">
+							<li><a href="https://www.microej.com/product/vee/">MICROEJ VEE</a></li>
+							<li><a href="https://www.microej.com/product/sdk/">MICROEJ SDK</a></li>
+							<!--<li><a href="">MICROEJ Studio</a></li>-->
+							<li><a href="https://www.microej.com/product/forge/">MICROEJ Forge</a></li>						
+						</ul>
+					</div>
+						<div class="col-sm-6 col-md-3 padded foot_link">
+						<p class="orange bold">Media center</p>
+						<ul class="list-unstyled">
+							<li><a href="https://www.microej.com/press/#press_media">Media coverage</a></li>
+							<li><a href="https://www.microej.com/press/#press_release">Press releases</a></li>
+                            <li><a href="https://www.microej.com/press-room/">Press room</a></li>
+							<li class="hidden"><a href="https://www.microej.com/press/#press_kit">Press kit</a></li>
+						</ul>
+					</div>				
+					<div class="col-sm-6 col-md-3 padded foot_link">
+						<p class="orange bold">MicroEJ</p>
+						<ul class="list-unstyled">		
+							<li><a href="https://www.microej.com/?page_id=157">About MicroEJ</a></li>
+							<li><a href="https://www.microej.com/news/">Blog</a></li>
+                            <li><a href="https://www.microej.com/customer/">Customers</a></li>
+							<li><a href="https://www.microej.com/partners/">Partners</a></li>
+							<li><a href="https://www.microej.com/job/">Jobs</a></li>			
+							<li class="hidden"><a href="#">Resources</a></li>		
+							<li><a href="https://www.microej.com/contact/">Contact</a></li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+            			<div class="col-sm-12 col-md-5" id="newsletter">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 padded nl_bloc">
+
+						<p class="orange bold">Stay in touch with us</p>
+						<p class="white">Latest news, advices, analysis and more.</p>
+						    <script src="../js/api.js" async defer></script>
+        <script type="text/javascript" src="https://is2t.sugaropencloud.eu/cache/include/javascript/sugar_grp1.js?v=MJIj-iVU2RZstKJw4hB0_w"></script>
+<form id="WebToLeadFormNews" method="POST" name="WebToLeadFormNews">
+	<div class="form-group"> 
+		<input class="form-control" id="last_name" type="text" name="last_name" placeholder="Your name" onchange="validateHuman()" required>
+	</div>
+	<div class="form-group"> 
+		<input class="form-control" id="email2" type="text" placeholder="Your email address" name="email2" onchange="validateEmailAddNews();">
+	</div>
+	<div class="row">
+                <div class="col-xs-12 padded">
+            <button class="g-recaptcha btn white bg_orange" id="g-recpatcha" data-sitekey="6LdzkZgUAAAAACArbw0aZwwLuwcWZI-lGGpvgg7r" data-callback="submitForm" data-action="submit">Submit</button>
+        </div>
+        <!--		<div class="col-xs-12">
+			<input onclick="submitForm();" type="button" name="Submit" value="Sign up" class="btn white bg_orange">
+		</div>-->
+	</div>
+	<input id="lead_source" type="hidden" name="lead_source" value="Web Site">
+	<input id="campaign_id" type="hidden" name="campaign_id" value="c94821e3-1b65-5316-ff89-519b1dcccfc0">
+	<input id="redirect_url" type="hidden" name="redirect_url" value="https://www.microej.com/newsletter-thank-you/?nl=1&back=0">
+	<input id="assigned_user_id" type="hidden" name="assigned_user_id" value="66e60d58-08bd-42c5-9af5-edad3b629b94">
+	<input id="team_id" type="hidden" name="team_id" value="50611200-4bc9-11e9-a5e6-064dc27f89e0">
+	<input id="team_set_id" type="hidden" name="team_set_id" value="50611200-4bc9-11e9-a5e6-064dc27f89e0">
+	<input id="req_id" type="hidden" name="req_id" value="last_name;">
+	<input type="hidden" id="human" name="human" value="0">
+
+</form>
+<script type="text/javascript">// <![CDATA[
+
+function submitForm (token) {
+     // console.log(token);
+    if (document.getElementById('last_name').value === "") {
+        document.getElementById('last_name').style.border = '1px solid red'
+        return false
+    }
+    else {
+        document.getElementById('last_name').style.border = '0px solid transparent'
+    }
+
+    if (document.getElementById('email2').value === "") {
+        document.getElementById('email2').style.border = '1px solid red'
+        return false
+    }
+    else {
+        document.getElementById('email2').style.border = '0px solid transparent'
+    }
+
+    if (document.getElementById('human').value == '546572') {
+        if(document.getElementById('g-recpatcha')) {
+            var response = grecaptcha.getResponse();
+            if (response.length == 0) {
+                //reCaptcha not verified
+                alert("Please verify you are human!");
+                evt.preventDefault();
+                return false;
+            }
+        }
+        document.WebToLeadFormNews.action = "https://is2t.sugaropencloud.eu/index.php?entryPoint=WebToLeadCapture";
+        document.WebToLeadFormNews.submit();
+        return true;
+
+    }
+    else {
+        return false
+    }
+}
+
+function validateHuman () {
+    document.getElementById('human').value = "546572";
+}
+
+function validateEmailAddNews () {
+    if (document.getElementById('email2') && document.getElementById('email2').value.length > 0) {
+        if (document.getElementById('email2').value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null) {
+            alert('Not a valid email address');
+        }
+        else {
+            return validateHuman()
+        }
+    }
+}
+// ]]></script>
+
+
+						<span class="input_container hidden"><input type="text" name="email" class="input input-lg bg-transparent white" placeholder="Your email address"></span>
+
+					</div>
+				</div>
+			</div>
+            		</div>
+		<hr>
+		<div class="row last_footer">
+			<div class="col-sm-12 col-md-8 padded">
+				<p class>
+				<img src="../images/logo-sm-white.png" alt="MicroEJ" class="logo-sm"><br class="visible-xs">
+				© 2022  MicroEJ - All rights reserved<br class="visible-xs">  <span class="hidden-xs">-</span>  <a href="https://www.microej.com/legal-notice/">Legal notice</a>  -  <a href="https://www.microej.com/privacy-policy/">Privacy policy</a>  - <a href="https://www.microej.com/sitemap/">Sitemap</a>
+				</p>
+			</div>
+			<div class="col-sm-12 col-md-4 padded">
+				<ul class="list-inline text-right">
+					<li><a href="http://www.twitter.com/@microej" target="_blank"><i class="icon-twitter white"></i></a></li>
+					<li><a href="https://www.facebook.com/Microej-787905398059931/" target="_blank"><i class="icon-facebook white"></i></a></li>
+					<li><a href="http://www.youtube.com/user/IS2Tsa" target="_blank"><i class="icon-youtube white"></i></a></li>
+					<li><a href="http://www.linkedin.com/company/microej" target="_blank"><i class="icon-linkedin white"></i></a></li>
+					<li class="hidden"><a href target="_blank"><i class="icon-instagram white"></i></a></li>				
+				</ul>
+			</div>			
+		</div>
+	</div>
+	
+</footer> <!-- end footer -->
+
+
+<ul class="fix_links bg_black list-unstyled text-center">
+	<li>
+		<a href="https://www.microej.com/event/" class="white">
+			<i class="icon icon-events"></i>
+			Events
+		</a>
+	</li>
+	<li>
+		<a href="https://www.microej.com/news/" class="white">
+			<i class="icon icon-live"></i>
+			Blog
+		</a>
+	</li>
+	<li>
+		<a href="https://www.microej.com/video/" class="white">
+			<i class="icon icon-videos"></i>
+			Videos
+		</a>
+	</li>	
+</ul>
+
+				
+		<!--[if lt IE 7 ]>
+  			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  			<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<!--		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+            <script src="../js/jquery-1.12.4.min.js"></script>
+            <script src="../js/jquery-ui-1.12.1.js"></script>
+				<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../js/bootstrap.min.js"></script>			
+		<script type="text/javascript" src="../js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="../js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.microej.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="collapseomatic-js-js-before">
+const com_options = {"colomatduration":"fast","colomatslideEffect":"slideFade","colomatpauseInit":"","colomattouchstart":""}
+</script>
+<script type="text/javascript" src="../js/collapse.js" id="collapseomatic-js-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LdzkZgUAAAAACArbw0aZwwLuwcWZI-lGGpvgg7r&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LdzkZgUAAAAACArbw0aZwwLuwcWZI-lGGpvgg7r","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/index_1.js" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+		<script src="../js/wow.min.js"></script>			
+		<script src="../js/lightbox.min.js"></script>
+		<script src="../js/parallax.min.js"></script>	
+		<script src="../js/jstimeline.js"></script>
+		<script src="../js/jquery.bxslider.min.js"></script>
+		<script src="../js/main.js"></script>
+
+	
+	</body>
+
+</html>
