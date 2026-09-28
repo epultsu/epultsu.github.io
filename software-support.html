@@ -79,7 +79,7 @@
       <p class="lead">Ни одно изменение не попадает в рабочую систему без проверки. Так доработки не ломают то, что уже работало.</p>
     </div>
     <figure class="infographic">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="ep3-ig-sp-t ep3-ig-sp-d">
+      <div class="ig-desk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="ep3-ig-sp-t ep3-ig-sp-d">
         <title id="ep3-ig-sp-t">Цикл обработки обращения</title>
         <desc id="ep3-ig-sp-d">Шесть этапов по кругу: обращение, диагностика, исправление или доработка, тестирование, выпуск в рабочую систему, отчёт и документация. Затем цикл повторяется для следующего обращения. В центре — резервная копия перед изменениями.</desc>
         <style>
@@ -121,7 +121,21 @@
             <rect x="50" y="100" width="220" height="60" rx="30" fill="#fff" stroke="#dfe2e6" class="ep3-hover"/><text x="160" y="136">6. Отчёт</text>
           </g>
         <circle class="ep3-ring" cx="500" cy="210" r="86"/><circle class="ep3-orbit" r="7" fill="#F76241" opacity="1" style="animation-delay:0s"/><circle class="ep3-orbit" r="4" fill="#F76241" opacity="0.5" style="animation-delay:-0.18s"/><circle class="ep3-orbit" r="2.5" fill="#F76241" opacity="0.3" style="animation-delay:-0.34s"/></g>
-      </svg>
+      </svg></div><div class="ig-mob"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 446" role="img" aria-labelledby="m3-t m3-d"><title id="m3-t">Цикл обработки обращения</title><desc id="m3-d">Резервная копия перед любым изменением. Шесть этапов: обращение, диагностика, исправление, тестирование, выпуск, отчёт; затем цикл повторяется.</desc><style>
+.m3-hv{cursor:pointer;transform-box:fill-box;transform-origin:center;transition:transform .25s ease}
+.m3-hv:hover{transform:scale(1.03)}
+.m3-hv>rect:first-of-type{transition:stroke .25s ease,stroke-width .25s ease}
+.m3-hv:hover>rect:first-of-type{stroke:#F76241;stroke-width:2.5}
+.m3-in{animation:m3-in .5s ease-out backwards;animation-delay:var(--d,0s)}
+@keyframes m3-in{from{opacity:0}to{opacity:1}}
+.m3-dot{animation:m3-mv var(--t,3s) linear infinite;animation-delay:var(--dl,0s);opacity:0}
+@keyframes m3-mv{0%{offset-distance:0%;opacity:0}10%,88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.m3-flow{stroke-dasharray:6 6;animation:m3-flow 1.2s linear infinite}
+@keyframes m3-flow{to{stroke-dashoffset:-12}}
+.m3-pulse{transform-box:fill-box;transform-origin:center;animation:m3-pulse 3s ease-in-out infinite}
+@keyframes m3-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){[class^="m3-"],[class*=" m3-"]{animation:none!important;transition:none!important}.m3-dot{display:none}}</style><defs><marker id="m3-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker></defs><g font-family="'Source Sans Pro', system-ui, sans-serif"><g class="m3-pulse"><rect x="0" y="0" width="360" height="64" rx="32" fill="#262a2c"/><text x="180" y="28" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">Резервная копия</text><text x="180" y="48" font-size="14" fill="#c3c7cb" text-anchor="middle">перед любым изменением</text></g><path class="m3-flow" d="M270 420.0 H338 V110.0 H274" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><text x="352" y="265.0" font-size="14" fill="#1f2326"></text><circle class="m3-dot" r="6" fill="#f76241" style="offset-path:path('M145.0 110.0 V420.0 H338 V110.0 H145.0');--t:8s;--dl:0s"/><circle class="m3-dot" r="6" fill="#f76241" style="offset-path:path('M145.0 110.0 V420.0 H338 V110.0 H145.0');--t:8s;--dl:-4s"/><g class="m3-hv m3-in" style="--d:0.00s"><rect x="20" y="88" width="250" height="44" rx="22" fill="#fde8e2"/><text x="145.0" y="116" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">1. Обращение</text></g><path d="M145.0 134 V148" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><g class="m3-hv m3-in" style="--d:0.10s"><rect x="20" y="150" width="250" height="44" rx="22" fill="#fff" stroke="#dfe2e6"/><text x="145.0" y="178" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">2. Диагностика</text></g><path d="M145.0 196 V210" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><g class="m3-hv m3-in" style="--d:0.20s"><rect x="20" y="212" width="250" height="44" rx="22" fill="#fff" stroke="#dfe2e6"/><text x="145.0" y="240" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">3. Исправление</text></g><path d="M145.0 258 V272" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><g class="m3-hv m3-in" style="--d:0.30s"><rect x="20" y="274" width="250" height="44" rx="22" fill="#fff" stroke="#dfe2e6"/><text x="145.0" y="302" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">4. Тестирование</text></g><path d="M145.0 320 V334" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><g class="m3-hv m3-in" style="--d:0.40s"><rect x="20" y="336" width="250" height="44" rx="22" fill="#fff" stroke="#dfe2e6"/><text x="145.0" y="364" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">5. Выпуск</text></g><path d="M145.0 382 V396" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m3-ah)"/><g class="m3-hv m3-in" style="--d:0.50s"><rect x="20" y="398" width="250" height="44" rx="22" fill="#fff" stroke="#dfe2e6"/><text x="145.0" y="426" font-size="16" font-weight="700" fill="#1f2326" text-anchor="middle">6. Отчёт</text></g><text transform="translate(352 265) rotate(90)" font-size="14" fill="#4a4b4f" text-anchor="middle">следующее обращение</text></g></svg>
+</div>
       <figcaption>Для срочных сбоев цикл сокращается: сначала возвращаем работоспособность, затем устраняем причину.</figcaption>
     </figure>
   </div>

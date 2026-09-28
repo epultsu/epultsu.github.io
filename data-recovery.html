@@ -93,7 +93,7 @@
       <p class="lead">Самое дешёвое восстановление — из исправной резервной копии. После работ настраиваем резервирование по проверенной схеме.</p>
     </div>
     <figure class="infographic">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="ep5-ig-rc-t ep5-ig-rc-d">
+      <div class="ig-desk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="ep5-ig-rc-t ep5-ig-rc-d">
         <title id="ep5-ig-rc-t">Правило резервного копирования 3-2-1</title>
         <desc id="ep5-ig-rc-d">Три копии данных: рабочая и две резервные. Два разных типа носителей, например сервер и сетевое хранилище. Одна копия хранится вне офиса, например в облаке или другом дата-центре.</desc>
         <style>
@@ -138,7 +138,21 @@
           <path d="M790 250 h80 a22 22 0 0 0 0-44 a30 30 0 0 0-58-8 a22 22 0 0 0-22 52z" fill="none" stroke="#f76241" stroke-width="2.5" class="ep5-cloud"/>
           <text x="830" y="285" font-size="14" fill="#c3c7cb">облако или другой дата-центр</text>
         <circle class="ep5-dot" r="4" style="offset-path:path('M610 190 Q680 150 808 214');--dur:5s;animation-delay:0s;"/></g>
-      </svg>
+      </svg></div><div class="ig-mob"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 364" role="img" aria-labelledby="m5-t m5-d"><title id="m5-t">Правило резервного копирования 3-2-1</title><desc id="m5-d">Три копии данных, два типа носителей, одна копия вне офиса.</desc><style>
+.m5-hv{cursor:pointer;transform-box:fill-box;transform-origin:center;transition:transform .25s ease}
+.m5-hv:hover{transform:scale(1.03)}
+.m5-hv>rect:first-of-type{transition:stroke .25s ease,stroke-width .25s ease}
+.m5-hv:hover>rect:first-of-type{stroke:#F76241;stroke-width:2.5}
+.m5-in{animation:m5-in .5s ease-out backwards;animation-delay:var(--d,0s)}
+@keyframes m5-in{from{opacity:0}to{opacity:1}}
+.m5-dot{animation:m5-mv var(--t,3s) linear infinite;animation-delay:var(--dl,0s);opacity:0}
+@keyframes m5-mv{0%{offset-distance:0%;opacity:0}10%,88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.m5-flow{stroke-dasharray:6 6;animation:m5-flow 1.2s linear infinite}
+@keyframes m5-flow{to{stroke-dashoffset:-12}}
+.m5-pulse{transform-box:fill-box;transform-origin:center;animation:m5-pulse 3s ease-in-out infinite}
+@keyframes m5-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){[class^="m5-"],[class*=" m5-"]{animation:none!important;transition:none!important}.m5-dot{display:none}}</style><defs><marker id="m5-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker></defs><g font-family="'Source Sans Pro', system-ui, sans-serif"><g class="m5-hv m5-in" style="--d:0.00s"><rect x="0" y="0" width="360" height="112" rx="16" fill="#fde8e2"/><text x="44" y="78" font-size="64" font-weight="700" fill="#c9401f" text-anchor="middle">3</text><text x="88" y="50" font-size="19" font-weight="700" fill="#1f2326">копии данных</text><text x="88" y="74" font-size="14" fill="#4a4b4f">рабочая + две резервные</text><rect x="282" y="38" width="16" height="22" rx="3" fill="#fff" stroke="#c9401f" stroke-width="1.5"/><rect x="304" y="38" width="16" height="22" rx="3" fill="#fff" stroke="#c9401f" stroke-width="1.5"/><rect x="326" y="38" width="16" height="22" rx="3" fill="#fff" stroke="#c9401f" stroke-width="1.5"/></g><g class="m5-hv m5-in" style="--d:0.15s"><rect x="0" y="126" width="360" height="112" rx="16" fill="#eef0f2"/><text x="44" y="204" font-size="64" font-weight="700" fill="#c9401f" text-anchor="middle">2</text><text x="88" y="176" font-size="19" font-weight="700" fill="#1f2326">типа носителей</text><text x="88" y="200" font-size="14" fill="#4a4b4f">сервер и сетевое хранилище</text><rect x="276" y="162" width="40" height="12" rx="3" fill="#fff" stroke="#4a4b4f" stroke-width="1.5"/><rect x="276" y="178" width="40" height="12" rx="3" fill="#fff" stroke="#4a4b4f" stroke-width="1.5"/><rect x="322" y="162" width="24" height="28" rx="4" fill="#fff" stroke="#4a4b4f" stroke-width="1.5"/><circle cx="334" cy="176" r="5" fill="#c9401f"/></g><g class="m5-hv m5-in" style="--d:0.30s"><rect x="0" y="252" width="360" height="112" rx="16" fill="#262a2c"/><text x="44" y="330" font-size="64" font-weight="700" fill="#f76241" text-anchor="middle">1</text><text x="88" y="302" font-size="19" font-weight="700" fill="#fff">копия вне офиса</text><text x="88" y="326" font-size="14" fill="#c3c7cb">облако или другой дата-центр</text><path class="m5-pulse" d="M296 322 h44 a13 13 0 0 0 0-26 a18 18 0 0 0-33-5 a13 13 0 0 0-11 31z" fill="none" stroke="#f76241" stroke-width="2.2"/></g></g></svg>
+</div>
       <figcaption>Отдельно настраиваем регулярную проверку: копия, из которой ни разу не восстанавливались, не гарантирует результата.</figcaption>
     </figure>
   </div>

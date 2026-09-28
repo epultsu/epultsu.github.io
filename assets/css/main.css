@@ -135,6 +135,9 @@ a.card .more{margin-top:auto;padding-top:14px;font-weight:700;color:var(--brand-
 /* ---------- инфографика ---------- */
 .infographic{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px}
 .infographic svg{width:100%;height:auto}
+/* на телефоне показываем вертикальную версию схемы */
+.ig-mob{display:none}
+@media (max-width:700px){.ig-desk{display:none}.ig-mob{display:block;max-width:420px;margin:0 auto}}
 .infographic figcaption{font-size:15px;color:var(--muted);margin-top:14px}
 .on-dark .infographic{background:var(--dark-2);border-color:#41474b}
 
@@ -171,11 +174,11 @@ a.card .more{margin-top:auto;padding-top:14px;font-weight:700;color:var(--brand-
 .formats .card .for{font-size:15px;color:var(--muted);margin-top:auto;padding-top:16px;border-top:1px solid var(--line)}
 
 /* ---------- формы ---------- */
-.form{display:grid;gap:18px}
+.form{display:grid;gap:18px;grid-template-columns:minmax(0,1fr);min-width:0}
 .form .row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.field{display:flex;flex-direction:column;gap:6px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
 .field label{font-size:15px;font-weight:700}
-.field input,.field select,.field textarea{font:inherit;font-size:17px;padding:12px 14px;border:1px solid var(--field-border);border-radius:10px;background:var(--surface);color:var(--ink);min-height:50px}
+.field input,.field select,.field textarea{font:inherit;font-size:17px;padding:12px 14px;border:1px solid var(--field-border);border-radius:10px;background:var(--surface);color:var(--ink);min-height:50px;width:100%;min-width:0;max-width:100%}
 .field textarea{min-height:140px;resize:vertical}
 .consent{display:flex;gap:10px;font-size:15px;color:var(--ink-2);align-items:flex-start}
 .consent input{margin-top:5px;width:18px;height:18px;flex-shrink:0}
@@ -271,10 +274,7 @@ a.card .more{margin-top:auto;padding-top:14px;font-weight:700;color:var(--brand-
   .hero{padding:48px 0 64px}
   .cta{padding:36px 28px}
   .form .row{grid-template-columns:minmax(0,1fr)}
-  .infographic{padding:18px;overflow-x:auto}
-  .infographic svg{min-width:680px}
-  .infographic figcaption{position:sticky;left:0}
-  .infographic figcaption::before{content:"Схему можно прокрутить в сторону. ";font-weight:700}
+  .infographic{padding:14px}
 }
 @media (max-width:560px){
   .g4,.steps{grid-template-columns:minmax(0,1fr)}

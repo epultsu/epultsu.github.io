@@ -82,7 +82,7 @@
       <p class="lead">Настраиваем маршрут так, чтобы входящий документ от поставщика сам попадал к нужному сотруднику, проходил согласование и проводился в учёте.</p>
     </div>
     <figure class="infographic">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="ep2-ig-1c-t ep2-ig-1c-d">
+      <div class="ig-desk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="ep2-ig-1c-t ep2-ig-1c-d">
         <title id="ep2-ig-1c-t">Маршрут документа в 1С и ЭДО</title>
         <desc id="ep2-ig-1c-d">Пять этапов: документ приходит от оператора ЭДО, 1С сопоставляет его с контрагентом и номенклатурой, документ проходит согласование у бухгалтера и руководителя, проводится в учёте, попадает в архив и отчётность по РСБУ.</desc>
         <style>
@@ -122,7 +122,21 @@
             <text x="500" y="251">Настраиваемые правила: суммы, типы документов, ответственные</text>
           </g>
         <g class="ep2-doc"><path d="M-13 -16 H5 L13 -8 V16 H-13 Z" fill="#fff" stroke="#C9401F" stroke-width="2"/><path d="M5 -16 V-8 H13 M-7 -1 H7 M-7 6 H7" fill="none" stroke="#F76241" stroke-width="2"/><path class="ep2-check" d="M-6 10 l4 4 8 -9" fill="none" stroke="#2E9E6A" stroke-width="3"/></g></g>
-      </svg>
+      </svg></div><div class="ig-mob"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 542" role="img" aria-labelledby="m2-t m2-d"><title id="m2-t">Маршрут документа в 1С и ЭДО</title><desc id="m2-d">Пять этапов: поступление от оператора ЭДО, сопоставление, согласование, проведение, архив и отчёты по РСБУ.</desc><style>
+.m2-hv{cursor:pointer;transform-box:fill-box;transform-origin:center;transition:transform .25s ease}
+.m2-hv:hover{transform:scale(1.03)}
+.m2-hv>rect:first-of-type{transition:stroke .25s ease,stroke-width .25s ease}
+.m2-hv:hover>rect:first-of-type{stroke:#F76241;stroke-width:2.5}
+.m2-in{animation:m2-in .5s ease-out backwards;animation-delay:var(--d,0s)}
+@keyframes m2-in{from{opacity:0}to{opacity:1}}
+.m2-dot{animation:m2-mv var(--t,3s) linear infinite;animation-delay:var(--dl,0s);opacity:0}
+@keyframes m2-mv{0%{offset-distance:0%;opacity:0}10%,88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.m2-flow{stroke-dasharray:6 6;animation:m2-flow 1.2s linear infinite}
+@keyframes m2-flow{to{stroke-dashoffset:-12}}
+.m2-pulse{transform-box:fill-box;transform-origin:center;animation:m2-pulse 3s ease-in-out infinite}
+@keyframes m2-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){[class^="m2-"],[class*=" m2-"]{animation:none!important;transition:none!important}.m2-dot{display:none}}</style><defs><marker id="m2-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker></defs><g font-family="'Source Sans Pro', system-ui, sans-serif"><g class="m2-dot" style="offset-path:path('M180 0 V464');--t:7s;offset-rotate:0deg"><rect x="-8" y="-10" width="16" height="20" rx="2" fill="#fff" stroke="#c9401f" stroke-width="1.5"/><path d="M-4 -3 H4 M-4 1 H4 M-4 5 H2" stroke="#f76241" stroke-width="1.5"/></g><g class="m2-hv m2-in" style="--d:0.00s"><rect x="0" y="0" width="360" height="72" rx="14" fill="#fde8e2"/><text x="20" y="45" font-size="26" font-weight="700" fill="#c9401f">01</text><text x="68" y="31" font-size="17" font-weight="700" fill="#1f2326">Поступление</text><text x="68" y="53" font-size="14" fill="#4a4b4f">от оператора ЭДО</text></g><path class="m2-flow" d="M120 75 V95" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m2-ah)"/><g class="m2-hv m2-in" style="--d:0.12s"><rect x="0" y="98" width="360" height="72" rx="14" fill="#eef0f2"/><text x="20" y="143" font-size="26" font-weight="700" fill="#c9401f">02</text><text x="68" y="129" font-size="17" font-weight="700" fill="#1f2326">Сопоставление</text><text x="68" y="151" font-size="14" fill="#4a4b4f">контрагент, номенклатура</text></g><path class="m2-flow" d="M120 173 V193" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m2-ah)"/><g class="m2-hv m2-in" style="--d:0.24s"><rect x="0" y="196" width="360" height="72" rx="14" fill="#eef0f2"/><text x="20" y="241" font-size="26" font-weight="700" fill="#c9401f">03</text><text x="68" y="227" font-size="17" font-weight="700" fill="#1f2326">Согласование</text><text x="68" y="249" font-size="14" fill="#4a4b4f">бухгалтер → руководитель</text></g><path class="m2-flow" d="M120 271 V291" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m2-ah)"/><g class="m2-hv m2-in" style="--d:0.36s"><rect x="0" y="294" width="360" height="72" rx="14" fill="#eef0f2"/><text x="20" y="339" font-size="26" font-weight="700" fill="#c9401f">04</text><text x="68" y="325" font-size="17" font-weight="700" fill="#1f2326">Проведение</text><text x="68" y="347" font-size="14" fill="#4a4b4f">в бухгалтерском и налоговом учёте</text></g><path class="m2-flow" d="M120 369 V389" stroke="#f76241" stroke-width="2.5" fill="none" marker-end="url(#m2-ah)"/><g class="m2-hv m2-in" style="--d:0.48s"><rect x="0" y="392" width="360" height="72" rx="14" fill="#262a2c"/><text x="20" y="437" font-size="26" font-weight="700" fill="#f76241">05</text><text x="68" y="423" font-size="17" font-weight="700" fill="#fff">Архив и отчёты</text><text x="68" y="445" font-size="14" fill="#c3c7cb">формы по РСБУ, электронный архив</text></g><rect x="0" y="484" width="360" height="58" rx="29" fill="#fff" stroke="#dfe2e6"/><text x="180" y="509" font-size="14" font-weight="600" fill="#1f2326" text-anchor="middle">Настраиваемые правила:</text><text x="180" y="528" font-size="14" fill="#4a4b4f" text-anchor="middle">суммы, типы документов, ответственные</text></g></svg>
+</div>
       <figcaption>Маршрут, роли и правила согласования настраиваются под структуру вашей компании.</figcaption>
     </figure>
   </div>
