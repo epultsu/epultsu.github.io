@@ -1,866 +1,240 @@
-<!DOCTYPE html>
-<html lang="ru-RU" class="no-js">
-<!--<![endif]-->
-
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>E-Pult | Решения для умных домов | Автоматизация работы с маркетплейсами</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
-    <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="E-Pult">
-    <meta name="application-name" content="E-Pult">
-    <meta name="msapplication-TileColor" content="#00aba9">
-
-    <meta name="theme-color" content="#ffffff">
-    <!-- wordpress head functions -->
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-
-    <!-- This site is optimized with the Yoast SEO plugin v18.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <link rel="canonical" href="https://www.e-pult.su/">
-    <meta property="og:locale" content="en_US">
-
-    <meta property="og:type" content="website">
-    <meta property="og:title"
-        content="E-Pult - Решения для умных домов и предприятий. Автоматизация работы с маркетплейсами и системы безопасности"
-        tiny="" sibling="" of="" android"="" for="" home="" appliances,="" industrial="" gateways,="" wearables,=""
-        smart="" printers,="" medical="" devices,="" city="" and="" more."="">
-    <meta property="og:description"
-        content="E-Pult - Решения для умных домов и предприятий. Автоматизация работы с маркетплейсами и системы безопасности">
-    <meta property="og:url" content="https://www.e-pult.su/">
-    <meta property="og:site_name" content="E-PULT - современные умные решения">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <!-- / Yoast SEO plugin. -->
-    <link rel="dns-prefetch" href="//www.google.com">
-    <link rel="dns-prefetch" href="//s.w.org">
-    <script type="text/javascript">
-        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/www.microej.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.5" } };
-        /*! This file is auto-generated */
-        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
-    </script>
-    <script src="js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 0.07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-    </style>
-    <!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://www.microej.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.5' type='text/css' media='all' /> -->
-    <link rel="stylesheet" type="text/css" href="css/6fc3b.css" media="all">
-    <style id="global-styles-inline-css" type="text/css">
-        body {
-            --wp--preset--color--black: #000000;
-            --wp--preset--color--cyan-bluish-gray: #abb8c3;
-            --wp--preset--color--white: #ffffff;
-            --wp--preset--color--pale-pink: #f78da7;
-            --wp--preset--color--vivid-red: #cf2e2e;
-            --wp--preset--color--luminous-vivid-orange: #ff6900;
-            --wp--preset--color--luminous-vivid-amber: #fcb900;
-            --wp--preset--color--light-green-cyan: #7bdcb5;
-            --wp--preset--color--vivid-green-cyan: #00d084;
-            --wp--preset--color--pale-cyan-blue: #8ed1fc;
-            --wp--preset--color--vivid-cyan-blue: #0693e3;
-            --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-            --wp--preset--duotone--dark-grayscale: url('index_1.html#wp-duotone-dark-grayscale');
-            --wp--preset--duotone--grayscale: url('index_1.html#wp-duotone-grayscale');
-            --wp--preset--duotone--purple-yellow: url('index_1.html#wp-duotone-purple-yellow');
-            --wp--preset--duotone--blue-red: url('index_1.html#wp-duotone-blue-red');
-            --wp--preset--duotone--midnight: url('index_1.html#wp-duotone-midnight');
-            --wp--preset--duotone--magenta-yellow: url('index_1.html#wp-duotone-magenta-yellow');
-            --wp--preset--duotone--purple-green: url('index_1.html#wp-duotone-purple-green');
-            --wp--preset--duotone--blue-orange: url('index_1.html#wp-duotone-blue-orange');
-            --wp--preset--font-size--small: 13px;
-            --wp--preset--font-size--medium: 20px;
-            --wp--preset--font-size--large: 36px;
-            --wp--preset--font-size--x-large: 42px;
-        }
-
-        .has-black-color {
-            color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-color {
-            color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-color {
-            color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-color {
-            color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-color {
-            color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-color {
-            color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-color {
-            color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-color {
-            color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-color {
-            color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-color {
-            color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-color {
-            color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-color {
-            color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-black-background-color {
-            background-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-background-color {
-            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-background-color {
-            background-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-background-color {
-            background-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-background-color {
-            background-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-background-color {
-            background-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-background-color {
-            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-background-color {
-            background-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-black-border-color {
-            border-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-border-color {
-            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-border-color {
-            border-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-border-color {
-            border-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-border-color {
-            border-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-border-color {
-            border-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-border-color {
-            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-border-color {
-            border-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-        }
-
-        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-        }
-
-        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-        }
-
-        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-        }
-
-        .has-cool-to-warm-spectrum-gradient-background {
-            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-        }
-
-        .has-blush-light-purple-gradient-background {
-            background: var(--wp--preset--gradient--blush-light-purple) !important;
-        }
-
-        .has-blush-bordeaux-gradient-background {
-            background: var(--wp--preset--gradient--blush-bordeaux) !important;
-        }
-
-        .has-luminous-dusk-gradient-background {
-            background: var(--wp--preset--gradient--luminous-dusk) !important;
-        }
-
-        .has-pale-ocean-gradient-background {
-            background: var(--wp--preset--gradient--pale-ocean) !important;
-        }
-
-        .has-electric-grass-gradient-background {
-            background: var(--wp--preset--gradient--electric-grass) !important;
-        }
-
-        .has-midnight-gradient-background {
-            background: var(--wp--preset--gradient--midnight) !important;
-        }
-
-        .has-small-font-size {
-            font-size: var(--wp--preset--font-size--small) !important;
-        }
-
-        .has-medium-font-size {
-            font-size: var(--wp--preset--font-size--medium) !important;
-        }
-
-        .has-large-font-size {
-            font-size: var(--wp--preset--font-size--large) !important;
-        }
-
-        .has-x-large-font-size {
-            font-size: var(--wp--preset--font-size--x-large) !important;
-        }
-    </style>
-
-    <link rel="stylesheet" type="text/css" href="css/6fc3b_1.css" media="all">
-    <script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
-    <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-    <script type="text/javascript" src="js/modernizr.js" id="modernizr-js"></script>
-
-    <script type="text/javascript">
-        var jQueryMigrateHelperHasSentDowngrade = false;
-        window.onerror = function (msg, url, line, col, error) {
-            // Break out early, do not processing if a downgrade reqeust was already sent.
-            if (jQueryMigrateHelperHasSentDowngrade) {
-                return true;
-            }
-            var xhr = new XMLHttpRequest();
-            var nonce = '5690c1a300';
-            var jQueryFunctions = [
-                'andSelf',
-                'browser',
-                'live',
-                'boxModel',
-                'support.boxModel',
-                'size',
-                'swap',
-                'clean',
-                'sub',
-            ];
-            var match_pattern = /\)\.(.+?) is not a function/;
-            var erroredFunction = msg.match(match_pattern);
-            // If there was no matching functions, do not try to downgrade.
-            if (typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf(erroredFunction[1])) {
-                return true;
-            }
-            // Set that we've now attempted a downgrade request.
-            jQueryMigrateHelperHasSentDowngrade = true;
-            xhr.open('POST', '#');
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-            xhr.onload = function () {
-                var response,
-                    reload = false;
-                if (200 === xhr.status) {
-                    try {
-                        response = JSON.parse(xhr.response);
-                        reload = response.data.reload;
-                    } catch (e) {
-                        reload = false;
-                    }
-                }
-                // Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
-                if (reload) {
-                    location.reload();
-                }
-            };
-            xhr.send(encodeURI('action=jquery-migrate-downgrade-version&_wpnonce=' + nonce));
-            // Suppress error alerts in older browsers
-            return true;
-        }
-    </script>
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
-    <script type="text/javascript" src="js/2904.js" async="async"></script> <!-- end of wordpress head -->
-
-    <link rel="stylesheet" type="text/css" href="css/2018.css" media="all">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Pult — ИТ-сопровождение бизнеса: 1С, данные, сайты и маркетплейсы</title>
+<meta name="description" content="E-Pult сопровождает ИТ компаний: настройка и доработка 1С, ИТ-аудит, восстановление данных, хостинг, сайты на Битрикс и автоматизация продаж на маркетплейсах.">
+<link rel="canonical" href="https://e-pult.su/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="E-Pult">
+<meta property="og:title" content="E-Pult — ИТ-сопровождение бизнеса: 1С, данные, сайты и маркетплейсы">
+<meta property="og:description" content="E-Pult сопровождает ИТ компаний: настройка и доработка 1С, ИТ-аудит, восстановление данных, хостинг, сайты на Битрикс и автоматизация продаж на маркетплейсах.">
+<meta property="og:url" content="https://e-pult.su/">
+<meta property="og:image" content="https://e-pult.su/img/og-home.jpg">
+<meta name="theme-color" content="#262a2c">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+<link rel="preload" href="assets/fonts/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/main.css">
 </head>
-
-<body class="home blog">
-
-    <header role="banner" class="header ">
-        <div class="navbar navbar-fixed-top ">
-            <div class="navbar-header ">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target=".navbar-responsive-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand "
-                    title="Design performant, secure, reliable and future-proof electronic products thanks to MicroEJ, the &quot;tiny sibling of Android&quot; for home appliances, industrial gateways, wearables, smart printers, medical devices, smart city and more."
-                    href="https://www.e-pult.su">
-                    <img src="images/logo-avatar.png" alt="E-PULT | Автоматизация строений и работы на маркетплейсах"
-                        class="logo_avatar">
-                    <img src="images/logo-txt.png" alt="E-PULT | Автоматизация строений и работы на маркетплейсах"
-                        class="logo_txt">
-                </a>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="collapse navbar-collapse navbar-responsive-collapse navbar-right">
-                            <ul id="menu-menu" class="nav navbar-nav">
-                                <li id="menu-item-6"
-                                    class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Наши решения<span
-                                            class="icon-caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li id="menu-item-241"
-                                            class="menu-item menu-item-type-post_type menu-item-object-solution"><a
-                                                href="smart-homes-and-buildings.html">СИСТЕМА УМНЫЙ ДОМ</a>
-                                        </li>
-                                        <li id="menu-item-242"
-                                            class="menu-item menu-item-type-post_type menu-item-object-solution"><a
-                                                href="smart-city.html">СИСТЕМА УМНЫЙ ГОРОД</a></li>
-                                        <li id="menu-item-10211"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                                href="security-page.html">СИСТЕМЫ БЕЗОПАСНОСТИ</a>
-                                        </li>
-                                        <li id="menu-item-243"
-                                            class="menu-item menu-item-type-post_type menu-item-object-solution"><a
-                                                href="smart-wall.html">Умный Жилой Комплекс</a>
-                                        </li>
-                                        <li id="menu-item-240"
-                                            class="menu-item menu-item-type-post_type menu-item-object-solution"><a
-                                                href="smart-office.html">УМНЫЙ ОФИС</a></li>
-                                        <li id="menu-item-13607"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                                href="smart-industry.html">ЦИФРОВОЕ ПРЕДПРИЯТИЕ</a></li>
-                                        <li id="menu-item-13924"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                                href="marketplace-service.html">Работа с маркетплейсами</a></li>
-                                    </ul>
-                                </li>
-
-
-                                <li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="#contacts">Контакты</a>
-                                </li>
-                                <li id="menu-item-291"
-                                    class="demo_btn_menu menu-item menu-item-type-custom menu-item-object-custom"><a
-                                        href="contact-page.html">Оставить запрос</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div> <!-- end .navbar -->
-
-    </header> <!-- end header -->
-
-
-    <div class="slider">
-        <div class="bxslider">
-            <div class="item container-fluid"
-                style="background:url(images/Best-Hiseeu-Security-Camera-System-Reviews.jpg) no-repeat center center / cover">
-                <div class="container relative">
-                    <div class="row row-eq-height">
-                        <div class="item_txt">
-                            <p>Компания E-Pult проводник в мир современных технологий</p>
-                        </div>
-                        <div class="item_img hidden-xs Xcol-sm-6 Xcol-md-7  text-center relative ">
-                            <img src="" alt="" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-                <span class="svg_container svg_bottom ">
-                    <img src="fonts/courbe-haut.svg" class="svg_top">
-                    <a href="#solutions" class="hexagone small hidden-xs">
-                        <i class="icon icon-fleche-bas grey"></i>
-                        <svg class="grey" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </a>
-                </span>
-            </div>
-
-        </div>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="E-Pult — на главную"><img src="assets/img/logo-avatar.png" alt="" width="28" height="33">E-PULT</a>
+    <button class="menu-toggle" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="index.html" aria-current="page">Главная</a>
+      <div class="dd"><button type="button" aria-expanded="false">Услуги</button><div class="dd-menu"><a href="1c.html">1С и автоматизация учёта<small>Бухгалтерия 8.3, ERP, ЭДО, отчёты по РСБУ</small></a><a href="software-support.html">Сопровождение и доработка ПО<small>Поддержка, адаптация, тестирование, консультации</small></a><a href="it-audit.html">ИТ-аудит и безопасность<small>Диагностика инфраструктуры и поиск уязвимостей</small></a><a href="data-recovery.html">Восстановление данных<small>Базы данных, виртуальные машины, архивы</small></a><a href="hosting.html">Обработка данных и хостинг<small>Размещение сайтов, 1С и данных, резервирование</small></a><a href="bitrix.html">Сайты и магазины на Битрикс<small>Разработка, каталог, администрирование, продвижение</small></a><a href="marketplace-service.html">Маркетплейсы и интернет-реклама<small>Автоматизация продаж и рекламных платформ</small></a></div></div>
+      <a href="index.html#formats">Форматы работы</a>
+      <a href="contact-page.html">Контакты</a>
+      <a class="btn btn-primary" href="contact-page.html#form">Оставить заявку</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">ИТ-сопровождение бизнеса</span>
+      <h1>Берём на себя ИТ, чтобы вы занимались делом</h1>
+      <p class="lead">Настраиваем и дорабатываем 1С, проверяем и защищаем инфраструктуру, восстанавливаем данные, размещаем сайты и базы, запускаем продажи на Битрикс и маркетплейсах. Один подрядчик — одно окно для всех ИТ-задач компании.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="contact-page.html#form">Обсудить задачу</a>
+        <a class="btn btn-ghost" href="#services">Все услуги</a>
+      </div>
+      <ul class="tags">
+        <li>1С:Бухгалтерия 8.3</li><li>ЭДО</li><li>ИТ-аудит</li><li>Резервные копии</li><li>Битрикс24</li><li>Маркетплейсы</li>
+      </ul>
     </div>
-    <div class="container-fluid bg_lgrey about_container grow">
-        <div class="container padded">
-            <div class="row">
-                <div id="nb_container" class="col-sm-12 col-md-6 numbers_part">
-                    <div class="row numb_row wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.0s">
-                        <div class="col-xs-12 text-right">
-                            <span class="orange numb">
-                                <span class="counter" data-count="87">
-                                    0
-                                </span>
-                                % </span>
-                        </div>
-                        <div class="col-xs-12 text-right">
-                            <span class="txt">Ежегодный рост внедрения <strong> умных </strong> технологий при
-                                проектировании,
-                                строительстве и автоматизации зданий</span>
-                        </div>
-                    </div>
-                    <div class="row numb_row wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <div class="col-xs-12 text-right">
-                            <span class="orange numb">
-                                <span class="counter" data-count="35">
-                                    0
-                                </span>
-                                % </span>
-                        </div>
-                        <div class="col-xs-12 text-right">
-                            <span class="txt">Процент сокращения издержек на коммунальные услуги благодаря <strong>
-                                    умным</strong> технологиям</span>
-                        </div>
-                    </div>
-                    <div class="row numb_row wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <div class="col-xs-12 text-right">
-                            <span class="orange numb">
-                                <span class="counter" data-count="300">
-                                    0
-                                </span>
-                                %
-                            </span>
-                        </div>
-                        <div class="col-xs-12 text-right">
-                            <span class="txt">Процент увеличения эффективности продаж на маркетплесах с помощью наших
-                                решений в области электронной коммерции </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 txt_part padded">
-                    <p class="subtitle text-uppercase orange">о нас</p>
-                    <h2 class="underlined underlined_left grey hexagon_title">Делаем нашу жизнь умнее!</h2>
-                    <p> <strong> Компания E-Pult </strong>- занимается собственной разработкой и прикладным применений
-                        технологий IoT, Big
-                        Data, AI в области Интернет Вещей и электронной коммерции. Основные направления нашей работы :
-                    </p>
-                    <ul>
-                        <li>«Умное здание» и «Умный офис»</li>
-                        <li>«Умный жилой комплекс»</li>
-                        <li>«Умный Город» (Smart City) и IoT</li>
-                        <li>Промышленная автоматизация и «Промышленный Интернет Вещей (IIoT)»</li>
-                        <li>«Умные системы безопасности»</li>
-                        <li>Автоматизация и аналитика работы в маркетплейсах</li>
-                    </ul>
-                </div>
+    <figure class="pic "><img src="img/hero-home.webp" alt="Команда E-Pult сопровождает ИТ-системы компании: 1С, серверы, сайт и маркетплейсы" loading="lazy" onerror="this.remove()"><figcaption>img/hero-home.webp</figcaption></figure>
+  </div>
+</section>
 
-            </div>
-        </div>
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Кому мы помогаем</span>
+      <h2>Когда своего ИТ-отдела нет или он перегружен</h2>
     </div>
-    <div id="solutions" class="container padded solution_container ">
-        <div class="container padded">
-            <div class="row">
-                <div class="col-sm-12 text-center padded">
-                    <p class="subtitle text-uppercase orange">Smart-решения</p>
-                    <h2 class="underlined grey">Наши решения в области Интернет Вещей (IoT) <br> и e-commerce </h2>
-                </div>
-            </div>
-            <div class="row">
-                <a href="/smart-homes-and-buildings.html" class="solution_bloc relative wow fadeInRight"
-                    data-wow-duration="1s" data-wow-delay="0.1s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-supply-chain  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">СИСТЕМА УМНЫЙ ДОМ</h3>
-                </a>
-                <a href="smart-city.html" class="solution_bloc relative wow fadeInLeft" data-wow-duration="1s"
-                    data-wow-delay="0.2s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-cloud  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">УМНЫЙ ГОРОД</h3>
-                </a>
-                <a href="security-page.html" class="solution_bloc relative wow fadeInRight" data-wow-duration="1s"
-                    data-wow-delay="0.3s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-value  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-
-                    </span>
-                    <h3 class="solution_text">СИСТЕМЫ БЕЗОПАСНОСТИ</h3>
-                </a>
-                <a href="smart-wall.html" class="solution_bloc relative wow fadeInLeft" data-wow-duration="1s"
-                    data-wow-delay="0.4s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-sun  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">РЕШЕНИЯ ДЛЯ УМНЫХ МНОГОКВАРТИРНЫХ ДОМОВ</h3>
-                </a>
-                <a href="smart-office.html" class="solution_bloc relative wow fadeInRight" data-wow-duration="1s"
-                    data-wow-delay="0.5s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-secure  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">УМНЫЙ ОФИС</h3>
-                </a>
-                <a href="smart-industry.html" class="solution_bloc relative wow fadeInLeft" data-wow-duration="1s"
-                    data-wow-delay="0.6s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-portable-software  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">ЦИФРОВОЕ ПРЕДПРИЯТИЕ. ИНДУСТРИЯ 4.0</h3>
-                </a>
-                <a href="marketplace-service.html" class="solution_bloc relative wow fadeInRight" data-wow-duration="1s"
-                    data-wow-delay="0.7s">
-                    <span class="hexagone big bg_transparent stroke_orange">
-                        <i class="icon icon-intuitive-graphical  orange"></i>
-                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7"
-                            style="enable-background:new 0 0 141.7 141.7;" space="preserve">
-                            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
-c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z"></path>
-                        </svg>
-                    </span>
-                    <h3 class="solution_text">РЕШЕНИЯ ДЛЯ ТОРГОВЛИ НА МАРКЕТПЛЕЙСАХ</h3>
-                </a>
-            </div>
-        </div>
+    <div class="grid g4">
+      <div class="card"><h3>Бухгалтерии и финслужбе</h3><p>1С работает быстро, отчёты соответствуют РСБУ, документы ходят по ЭДО без ручной пересылки.</p></div>
+      <div class="card"><h3>Руководителю</h3><p>Прозрачная картина по ИТ: что работает, где риски, сколько стоит поддержка и что улучшить в первую очередь.</p></div>
+      <div class="card"><h3>Интернет-магазину и селлеру</h3><p>Сайт на Битрикс, каталог и остатки синхронизированы с 1С и маркетплейсами, реклама под контролем.</p></div>
+      <div class="card"><h3>Компании со своим ПО</h3><p>Сопровождение, доработки и тестирование программ и баз данных без найма штатных разработчиков.</p></div>
     </div>
+  </div>
+</section>
 
+<section class="bg-2" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Направления</span>
+      <h2>Семь направлений — одна команда</h2>
+      <p class="lead">Задачи бизнеса редко укладываются в одну систему: заказ с маркетплейса попадает в 1С, база живёт на сервере, сервер нужно защищать и резервировать. Мы ведём всю цепочку.</p>
+    </div>
+    <div class="grid g3"><a class="card" href="1c.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h4M7 13h10M7 17h6"/><path d="M15 7.5v3M13.5 9h3"/></svg></div><h3>1С и автоматизация учёта</h3><p>Бухгалтерия 8.3, ERP, ЭДО, отчёты по РСБУ</p><span class="more">Подробнее →</span></a><a class="card" href="software-support.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div><h3>Сопровождение и доработка ПО</h3><p>Поддержка, адаптация, тестирование, консультации</p><span class="more">Подробнее →</span></a><a class="card" href="it-audit.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><circle cx="11.5" cy="11.5" r="2.8"/><path d="M13.6 13.6l2.4 2.4"/></svg></div><h3>ИТ-аудит и безопасность</h3><p>Диагностика инфраструктуры и поиск уязвимостей</p><span class="more">Подробнее →</span></a><a class="card" href="data-recovery.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3M19 6v4"/><path d="M5 12v6c0 1.7 3.1 3 7 3"/><path d="M16 15a3 3 0 1 0 3 3M19 14.5V18h-3.5"/></svg></div><h3>Восстановление данных</h3><p>Базы данных, виртуальные машины, архивы</p><span class="more">Подробнее →</span></a><a class="card" href="hosting.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/></svg></div><h3>Обработка данных и хостинг</h3><p>Размещение сайтов, 1С и данных, резервирование</p><span class="more">Подробнее →</span></a><a class="card" href="bitrix.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M7 21h10"/><path d="M8 12h3v3H8zM14 12h3M14 15h2"/></svg></div><h3>Сайты и магазины на Битрикс</h3><p>Разработка, каталог, администрирование, продвижение</p><span class="more">Подробнее →</span></a><a class="card" href="marketplace-service.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16l-1.5 11a2 2 0 0 1-2 1.7H7.5a2 2 0 0 1-2-1.7z"/><path d="M9 7V6a3 3 0 0 1 6 0v1"/><path d="M9 13l2 2 4-4"/></svg></div><h3>Маркетплейсы и интернет-реклама</h3><p>Автоматизация продаж и рекламных платформ</p><span class="more">Подробнее →</span></a>
+      <a class="card" href="contact-page.html#form" style="background:var(--dark);border-color:var(--dark);color:#fff"><h3 style="color:#fff">Не нашли свою задачу?</h3><p style="color:#c3c7cb">Опишите её — скажем честно, можем ли помочь, или подскажем, к кому обратиться.</p><span class="more" style="color:#ff9a80">Написать нам →</span></a>
+    </div>
+  </div>
+</section>
 
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Как это связано</span>
+      <h2>ИТ компании — это три слоя, и мы работаем со всеми</h2>
+      <p class="lead">Продажи онлайн опираются на учётную систему, а учётная система — на надёжную инфраструктуру. Сбой в любом слое бьёт по всему бизнесу.</p>
+    </div>
+    <figure class="infographic">
+      <svg viewBox="0 0 1000 520" role="img" aria-labelledby="ig1t ig1d">
+        <title id="ig1t">Три слоя ИТ компании</title>
+        <desc id="ig1d">Верхний слой — продажи онлайн: сайт на Битрикс, маркетплейсы, интернет-реклама. Средний слой — учёт и программы: 1С, ЭДО, отраслевое ПО. Нижний слой — инфраструктура и данные: серверы и хостинг, резервные копии, защита и аудит. Между слоями передаются заказы, остатки и цены, базы данных. E-Pult сопровождает все три слоя как единое окно поддержки.</desc>
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker>
+        </defs>
+        <g font-family="Source Sans Pro, sans-serif">
+          <!-- слой 1 -->
+          <rect x="20" y="20" width="790" height="120" rx="16" fill="#fde8e2"/>
+          <text x="44" y="70" font-size="22" font-weight="700" fill="#1f2326">Продажи онлайн</text>
+          <text x="44" y="96" font-size="15" fill="#4a4b4f">витрина и каналы продаж</text>
+          <g font-size="16" font-weight="600" fill="#1f2326" text-anchor="middle">
+            <rect x="290" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="365" y="86">Сайт на Битрикс</text>
+            <rect x="465" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="540" y="86">Маркетплейсы</text>
+            <rect x="640" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="715" y="86">Интернет-реклама</text>
+          </g>
+          <!-- слой 2 -->
+          <rect x="20" y="195" width="790" height="120" rx="16" fill="#eef0f2"/>
+          <text x="44" y="245" font-size="22" font-weight="700" fill="#1f2326">Учёт и программы</text>
+          <text x="44" y="271" font-size="15" fill="#4a4b4f">деньги, документы, процессы</text>
+          <g font-size="16" font-weight="600" fill="#1f2326" text-anchor="middle">
+            <rect x="290" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="365" y="261">1С:Бухгалтерия</text>
+            <rect x="465" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="540" y="261">ЭДО</text>
+            <rect x="640" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="715" y="261">Отраслевое ПО</text>
+          </g>
+          <!-- слой 3 -->
+          <rect x="20" y="370" width="790" height="120" rx="16" fill="#262a2c"/>
+          <text x="44" y="420" font-size="22" font-weight="700" fill="#fff">Инфраструктура</text>
+          <text x="44" y="446" font-size="15" fill="#c3c7cb">серверы, данные, защита</text>
+          <g font-size="16" font-weight="600" fill="#fff" text-anchor="middle">
+            <rect x="290" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="365" y="436">Серверы и хостинг</text>
+            <rect x="465" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="540" y="436">Резервные копии</text>
+            <rect x="640" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="715" y="436">Защита и аудит</text>
+          </g>
+          <!-- связи между слоями -->
+          <g stroke="#f76241" stroke-width="2.5" fill="none">
+            <path d="M345 142 V193" marker-end="url(#ah)"/>
+            <path d="M385 193 V142" marker-end="url(#ah)"/>
+            <path d="M345 317 V368" marker-end="url(#ah)"/>
+            <path d="M385 368 V317" marker-end="url(#ah)"/>
+          </g>
+          <g font-size="14" fill="#4a4b4f">
+            <text x="398" y="172">заказы ↓  остатки и цены ↑</text>
+            <text x="398" y="347">базы данных ↓  восстановление ↑</text>
+          </g>
+          <!-- E-Pult -->
+          <rect x="840" y="20" width="140" height="470" rx="16" fill="#c9401f"/>
+          <g fill="#fff" text-anchor="middle">
+            <text x="910" y="220" font-size="26" font-weight="700">E-Pult</text>
+            <text x="910" y="252" font-size="15">одно окно</text>
+            <text x="910" y="272" font-size="15">для всех</text>
+            <text x="910" y="292" font-size="15">трёх слоёв</text>
+          </g>
+          <g stroke="#c9401f" stroke-width="2" stroke-dasharray="5 5">
+            <path d="M812 80 H838"/><path d="M812 255 H838"/><path d="M812 430 H838"/>
+          </g>
+        </g>
+      </svg>
+      <figcaption>Когда один подрядчик видит всю цепочку, проблемы ищутся быстрее: не нужно выяснять, «чья это зона».</figcaption>
+    </figure>
+  </div>
+</section>
 
+<section class="bg-2" id="formats">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Форматы работы</span>
+      <h2>Выберите удобный формат сотрудничества</h2>
+    </div>
+    <div class="grid g3 formats">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div><h3>Разовая задача</h3><p>Восстановить базу, обновить конфигурацию 1С, провести аудит, починить сайт. Оцениваем объём, согласуем срок и стоимость до начала работ.</p><p class="for">Подходит, если нужно решить конкретную проблему</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h4M7 13h10M7 17h6"/><path d="M15 7.5v3M13.5 9h3"/></svg></div><h3>Абонентское сопровождение</h3><p>Ежемесячный пакет часов: плановое обслуживание 1С, серверов и сайта, консультации пользователей, мониторинг и резервное копирование.</p><p class="for">Подходит, если нужен постоянный «ИТ-отдел на аутсорсе»</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c9401f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M7 21h10"/><path d="M8 12h3v3H8zM14 12h3M14 15h2"/></svg></div><h3>Проект под ключ</h3><p>Внедрение ERP-контура, запуск интернет-магазина, интеграция 1С с маркетплейсами. Работаем по этапам с промежуточной приёмкой.</p><p class="for">Подходит для внедрений и крупных доработок</p></div>
+    </div>
+  </div>
+</section>
 
-    <footer role="contentinfo" class="container-fluid footer bg_white white relative">
-        <span class="svg_container svg_top">
-            <img src="fonts/courbe-bas.svg" class="svg_top">
-        </span>
-        <div class="container relative">
-            <img src="images/mej.png" class="img-responsive logo_top" alt="Micro EJ">
-            <div class="row">
-                <div class="col-xs-12 text-center footer_contact padded">
-                    <p>Хотите узнать больше о сервисе <br> Умный Дом от E-Pult?</p>
-                    <a href="contact-page.html" class="btn btn-lg bg_orange white">Свяжитесь с нами</a>
-                </div>
-            </div>
-            <hr>
-            <div id="contacts" class="row  foot_link">
-                <div class="col-sm-12 col-md-7">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-12 padded foot_link">
-                            <p class="orange bold">Контакты</p>
-                            <ul class="list-unstyled">
-                                <li>ООО "Е-ПУЛЬТ"</li>
-                                <li>ИНН: 0800005030 </li>
-                                <li>"Эл.почта: <a href="mailto:info@e-pult.su">info@e-pult.su</a></li>
-                                <li>Юр. адрес: 358014, РЕСПУБЛИКА КАЛМЫКИЯ, <br> Г.О. ГОРОД ЭЛИСТА,
-                                    Г ЭЛИСТА,
-                                    МКР 9,
-                                    Д. 58,
-                                    ПОМЕЩ. 9
-                                </li>
-                            </ul>
-                        </div>
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Как мы работаем</span>
+      <h2>Прозрачно — от заявки до результата</h2>
+    </div>
+    <ol class="steps">
+      <li><h3>Заявка и диагностика</h3><p>Выясняем, что происходит, какие системы задействованы, насколько срочно.</p></li>
+      <li><h3>Оценка и договор</h3><p>Фиксируем объём работ, сроки и стоимость. Подписываем договор и соглашение о конфиденциальности.</p></li>
+      <li><h3>Работы</h3><p>Выполняем задачи с безопасным удалённым доступом, согласовываем изменения, делаем резервные копии до вмешательства.</p></li>
+      <li><h3>Приёмка и отчёт</h3><p>Передаём результат, акт и описание сделанного. При необходимости — инструкции для сотрудников.</p></li>
+    </ol>
+  </div>
+</section>
 
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-5" id="newsletter">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 padded nl_bloc">
+<section class="on-dark">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Почему E-Pult</span>
+      <h2>Отвечаем за результат, а не за часы</h2>
+      <ul class="checks">
+        <li><strong style="color:#fff">Одно окно.</strong> 1С, серверы, сайт и маркетплейсы — у одной команды, без перекладывания ответственности.</li>
+        <li><strong style="color:#fff">Сначала резервная копия.</strong> Перед любыми изменениями сохраняем текущее состояние данных.</li>
+        <li><strong style="color:#fff">Работа по договору.</strong> Объём, сроки и конфиденциальность закреплены документально, закрывающие документы — каждый месяц.</li>
+        <li><strong style="color:#fff">Понятный язык.</strong> Объясняем, что сделали и зачем, без лишнего жаргона. Консультируем ваших сотрудников.</li>
+      </ul>
+    </div>
+    <figure class="pic "><img src="img/why-epult.webp" alt="Инженер E-Pult проверяет резервные копии и состояние серверов" loading="lazy" onerror="this.remove()"><figcaption>img/why-epult.webp</figcaption></figure>
+  </div>
+</section>
 
-                            <p class="orange bold">Будь на связи</p>
-                            <p class="white">Последние новости, советы, анализ и многое другое.</p>
-                            <!-- <script src="js/api.js" async defer></script> -->
-                            <script type="text/javascript" src="#"></script>
-                            <form id="WebToLeadFormNews" method="POST" name="WebToLeadFormNews">
-                                <div class="form-group">
-                                    <input class="form-control" id="last_name" type="text" name="last_name"
-                                        placeholder="Ваше имя" onchange="validateHuman()" required>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email2" type="text" placeholder="Ваш email адрес"
-                                        name="email2" onchange="validateEmailAddNews();">
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 padded">
-                                        <button class="g-recaptcha btn white bg_orange" id="g-recpatcha"
-                                            data-sitekey="6LdzkZgUAAAAACArbw0aZwwLuwcWZI-lGGpvgg7r"
-                                            data-callback="submitForm" data-action="submit">Отправить</button>
-                                    </div>
-                                    <!--		<div class="col-xs-12">
-			<input onclick="submitForm();" type="button" name="Submit" value="Sign up" class="btn white bg_orange">
-		</div>-->
-                                </div>
-                                <input id="lead_source" type="hidden" name="lead_source" value="Web Site">
-                                <input id="campaign_id" type="hidden" name="campaign_id"
-                                    value="c94821e3-1b65-5316-ff89-519b1dcccfc0">
-                                <input id="redirect_url" type="hidden" name="redirect_url" value="#">
-                                <input id="assigned_user_id" type="hidden" name="assigned_user_id"
-                                    value="66e60d58-08bd-42c5-9af5-edad3b629b94">
-                                <input id="team_id" type="hidden" name="team_id"
-                                    value="50611200-4bc9-11e9-a5e6-064dc27f89e0">
-                                <input id="team_set_id" type="hidden" name="team_set_id"
-                                    value="50611200-4bc9-11e9-a5e6-064dc27f89e0">
-                                <input id="req_id" type="hidden" name="req_id" value="last_name;">
-                                <input type="hidden" id="human" name="human" value="0">
+<section>
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow">Вопросы</span><h2>Частые вопросы</h2></div>
+    <div class="faq">
+      <details><summary>Вы работаете только удалённо?</summary><p>Большинство задач решаем удалённо по защищённому подключению — так быстрее и дешевле. Выезд на площадку обсуждается отдельно, если без него не обойтись.</p></details>
+      <details><summary>Можно начать с одной небольшой задачи?</summary><p>Да. Многие клиенты начинают с разовой работы — например, аудита или восстановления базы, — а затем переходят на абонентское сопровождение.</p></details>
+      <details><summary>Как обеспечивается конфиденциальность данных?</summary><p>Доступы выдаются по минимально необходимому принципу, фиксируются в договоре и отзываются по окончании работ. По запросу подписываем отдельное соглашение о неразглашении.</p></details>
+      <details><summary>Сколько стоит сопровождение?</summary><p>Зависит от числа пользователей, систем и нужного времени реакции. После короткой диагностики предложим фиксированную стоимость разовой задачи или ежемесячного пакета.</p></details>
+    </div>
+  </div>
+</section>
 
-                            </form>
-                            <script type="text/javascript">// <![CDATA[
+<section><div class="wrap"><div class="cta on-dark">
+  <div><h2>Нужна помощь с ИТ? Начнём с короткого разговора</h2><p>Опишите ситуацию своими словами — зададим уточняющие вопросы, оценим объём работ и предложим формат сотрудничества.</p></div>
+  <div class="hero-actions"><a class="btn btn-primary" href="contact-page.html#form">Оставить заявку</a><a class="btn btn-ghost" href="mailto:info@e-pult.su">info@e-pult.su</a></div>
+</div></div></section>
 
-                                function submitForm(token) {
-                                    // console.log(token);
-                                    if (document.getElementById('last_name').value === "") {
-                                        document.getElementById('last_name').style.border = '1px solid red'
-                                        return false
-                                    }
-                                    else {
-                                        document.getElementById('last_name').style.border = '0px solid transparent'
-                                    }
-
-                                    if (document.getElementById('email2').value === "") {
-                                        document.getElementById('email2').style.border = '1px solid red'
-                                        return false
-                                    }
-                                    else {
-                                        document.getElementById('email2').style.border = '0px solid transparent'
-                                    }
-
-                                    if (document.getElementById('human').value == '546572') {
-                                        if (document.getElementById('g-recpatcha')) {
-                                            var response = grecaptcha.getResponse();
-                                            if (response.length == 0) {
-                                                //reCaptcha not verified
-                                                alert("Please verify you are human!");
-                                                evt.preventDefault();
-                                                return false;
-                                            }
-                                        }
-                                        document.WebToLeadFormNews.action = "#";
-                                        document.WebToLeadFormNews.submit();
-                                        return true;
-
-                                    }
-                                    else {
-                                        return false
-                                    }
-                                }
-
-                                function validateHuman() {
-                                    document.getElementById('human').value = "546572";
-                                }
-
-                                function validateEmailAddNews() {
-                                    if (document.getElementById('email2') && document.getElementById('email2').value.length > 0) {
-                                        if (document.getElementById('email2').value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null) {
-                                            alert('Not a valid email address');
-                                        }
-                                        else {
-                                            return validateHuman()
-                                        }
-                                    }
-                                }
-// ]]></script>
-
-
-                            <span class="input_container hidden"><input type="text" name="email"
-                                    class="input input-lg bg-transparent white" placeholder="Your email address"></span>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="row last_footer">
-                <div class="col-sm-12 col-md-8 padded">
-                    <p class>
-
-                        © 2022 ООО Е-Пульт - Все права защищены<br class="visible-xs"> <span class="hidden-xs">-</span>
-                        <a href="policy-page.html">Политика конфиденциальности</a> - <a href="cookie-page.html">Политика
-                            использования cookie</a>
-                    </p>
-                </div>
-
-            </div>
-        </div>
-
-    </footer> <!-- end footer -->
-
-    <!--[if lt IE 7 ]>
-<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-<![endif]-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-    <!--		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery-ui-1.12.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
-    <script type="text/javascript" src="js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
-    <script type="text/javascript" id="contact-form-7-js-extra">
-        /* <![CDATA[ */
-        var wpcf7 = { "api": { "root": "https:\/\/www.microej.com\/wp-json\/", "namespace": "contact-form-7\/v1" } };
-/* ]]> */
-    </script>
-    <script type="text/javascript" src="js/index_1.js" id="contact-form-7-js"></script>
-    <script type="text/javascript" id="collapseomatic-js-js-before">
-        const com_options = { "colomatduration": "fast", "colomatslideEffect": "slideFade", "colomatpauseInit": "", "colomattouchstart": "" }
-    </script>
-    <script type="text/javascript" src="js/collapse.js" id="collapseomatic-js-js"></script>
-
-    <script type="text/javascript" id="wpcf7-recaptcha-js-extra">
-        /* <![CDATA[ */
-        var wpcf7_recaptcha = { "sitekey": "6LdzkZgUAAAAACArbw0aZwwLuwcWZI-lGGpvgg7r", "actions": { "homepage": "homepage", "contactform": "contactform" } };
-/* ]]> */
-    </script>
-    <script type="text/javascript" src="js/index.js" id="wpcf7-recaptcha-js"></script>
-    <script type="text/javascript">
-        (function () {
-            var expirationDate = new Date();
-            expirationDate.setTime(expirationDate.getTime() + 31536000 * 1000);
-            document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
-        }());
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jstimeline.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/main.js"></script>
-
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="index.html"><img src="assets/img/logo-avatar.png" alt="" width="28" height="33">E-PULT</a>
+        <p>ИТ-сопровождение бизнеса: 1С, инфраструктура и данные, сайты и продажи онлайн.</p>
+        <p>ООО «Е-Пульт»<br>ИНН 0800005030<br>358014, Республика Калмыкия, г. Элиста, мкр. 9, д. 58, помещ. 9</p>
+      </div>
+      <div><h4>Услуги</h4><ul><li><a href="1c.html">1С и автоматизация учёта</a></li><li><a href="software-support.html">Сопровождение и доработка ПО</a></li><li><a href="it-audit.html">ИТ-аудит и безопасность</a></li><li><a href="data-recovery.html">Восстановление данных</a></li><li><a href="hosting.html">Обработка данных и хостинг</a></li><li><a href="bitrix.html">Сайты и магазины на Битрикс</a></li><li><a href="marketplace-service.html">Маркетплейсы и интернет-реклама</a></li></ul></div>
+      <div><h4>Связаться</h4><ul>
+        <li><a href="mailto:info@e-pult.su">info@e-pult.su</a></li>
+        <li><a href="contact-page.html#form">Оставить заявку</a></li>
+        <li><a href="index.html#formats">Форматы работы</a></li>
+      </ul></div>
+    </div>
+    <div class="bottom">
+      <span>© 2022–2026 ООО «Е-Пульт». Все права защищены.</span>
+      <span><a href="policy-page.html">Политика конфиденциальности</a> · <a href="cookie-page.html">Политика cookie</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
 </body>
-
 </html>
