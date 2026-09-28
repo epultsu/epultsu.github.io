@@ -13,6 +13,7 @@
 <meta property="og:url" content="https://e-pult.su/">
 <meta property="og:image" content="https://e-pult.su/img/og-home.jpg">
 <meta name="theme-color" content="#262a2c">
+<script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='dark'&&t!=='light'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
 <link rel="preload" href="assets/fonts/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -23,7 +24,6 @@
 <header class="site-header">
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="E-Pult — на главную"><img src="assets/img/logo-avatar.png" alt="" width="28" height="33">E-PULT</a>
-    <button class="menu-toggle" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
     <nav class="nav" id="nav" aria-label="Основное меню">
       <a href="index.html" aria-current="page">Главная</a>
       <div class="dd"><button type="button" aria-expanded="false">Услуги</button><div class="dd-menu"><a href="1c.html">1С и автоматизация учёта<small>Бухгалтерия 8.3, ERP, ЭДО, отчёты по РСБУ</small></a><a href="software-support.html">Сопровождение и доработка ПО<small>Поддержка, адаптация, тестирование, консультации</small></a><a href="it-audit.html">ИТ-аудит и безопасность<small>Диагностика инфраструктуры и поиск уязвимостей</small></a><a href="data-recovery.html">Восстановление данных<small>Базы данных, виртуальные машины, архивы</small></a><a href="hosting.html">Обработка данных и хостинг<small>Размещение сайтов, 1С и данных, резервирование</small></a><a href="bitrix.html">Сайты и магазины на Битрикс<small>Разработка, каталог, администрирование, продвижение</small></a><a href="marketplace-service.html">Маркетплейсы и интернет-реклама<small>Автоматизация продаж и рекламных платформ</small></a></div></div>
@@ -31,6 +31,13 @@
       <a href="contact-page.html">Контакты</a>
       <a class="btn btn-primary" href="contact-page.html#form">Оставить заявку</a>
     </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" title="Тёмная тема">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>
+      </button>
+      <button class="menu-toggle" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
 <main id="main">
@@ -48,7 +55,7 @@
         <li>1С:Бухгалтерия 8.3</li><li>ЭДО</li><li>ИТ-аудит</li><li>Резервные копии</li><li>Битрикс24</li><li>Маркетплейсы</li>
       </ul>
     </div>
-    <figure class="pic "><img src="img/hero-home.webp" alt="Команда E-Pult сопровождает ИТ-системы компании: 1С, серверы, сайт и маркетплейсы" loading="lazy" onerror="this.remove()"><figcaption>img/hero-home.webp</figcaption></figure>
+    <figure class="pic "><img data-light="img/hero-home.webp" data-dark="img/hero-home-dark.webp" alt="Команда E-Pult сопровождает ИТ-системы компании: 1С, серверы, сайт и маркетплейсы" loading="lazy"><noscript><img src="img/hero-home.webp" alt="Команда E-Pult сопровождает ИТ-системы компании: 1С, серверы, сайт и маркетплейсы"></noscript><figcaption>img/hero-home.webp<br>img/hero-home-dark.webp</figcaption></figure>
   </div>
 </section>
 
@@ -88,53 +95,65 @@
       <p class="lead">Продажи онлайн опираются на учётную систему, а учётная система — на надёжную инфраструктуру. Сбой в любом слое бьёт по всему бизнесу.</p>
     </div>
     <figure class="infographic">
-      <svg viewBox="0 0 1000 520" role="img" aria-labelledby="ig1t ig1d">
-        <title id="ig1t">Три слоя ИТ компании</title>
-        <desc id="ig1d">Верхний слой — продажи онлайн: сайт на Битрикс, маркетплейсы, интернет-реклама. Средний слой — учёт и программы: 1С, ЭДО, отраслевое ПО. Нижний слой — инфраструктура и данные: серверы и хостинг, резервные копии, защита и аудит. Между слоями передаются заказы, остатки и цены, базы данных. E-Pult сопровождает все три слоя как единое окно поддержки.</desc>
-        <defs>
-          <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="ep1-ig1t ep1-ig1d">
+        <title id="ep1-ig1t">Три слоя ИТ компании</title>
+        <desc id="ep1-ig1d">Верхний слой — продажи онлайн: сайт на Битрикс, маркетплейсы, интернет-реклама. Средний слой — учёт и программы: 1С, ЭДО, отраслевое ПО. Нижний слой — инфраструктура и данные: серверы и хостинг, резервные копии, защита и аудит. Между слоями передаются заказы, остатки и цены, базы данных. E-Pult сопровождает все три слоя как единое окно поддержки.</desc>
+        <style>
+  .ep1-hover{cursor:pointer;transition:transform .25s ease,stroke .25s ease,filter .25s ease;transform-box:fill-box;transform-origin:center}
+  .ep1-hover:hover{transform:scale(1.04);stroke:#F76241;stroke-width:2.5}
+  .ep1-flow{animation:ep1-flow 2.8s linear infinite}
+  .ep1-load{animation:ep1-load .8s ease-out backwards}
+  .ep1-pulse{animation:ep1-pulse 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  .ep1-dot{fill:#F76241;animation:ep1-travel var(--dur,3s) ease-in-out infinite;offset-distance:0%;opacity:.8}
+  @keyframes ep1-flow{to{stroke-dashoffset:-24}}
+  @keyframes ep1-load{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes ep1-pulse{50%{opacity:.62;transform:scale(1.015)}}
+  @keyframes ep1-travel{0%,100%{offset-distance:0%;opacity:0}12%,88%{opacity:.85}95%{offset-distance:100%;opacity:0}}
+  @media (prefers-reduced-motion: reduce){[class^="ep1-"],[class*=" ep1-"]{animation:none!important;transition:none!important}.ep1-dot{display:none}}
+</style><defs>
+          <marker id="ep1-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f76241"/></marker>
         </defs>
-        <g font-family="Source Sans Pro, sans-serif">
+        <g font-family="'Source Sans Pro', system-ui, sans-serif">
           <!-- слой 1 -->
-          <rect x="20" y="20" width="790" height="120" rx="16" fill="#fde8e2"/>
-          <text x="44" y="70" font-size="22" font-weight="700" fill="#1f2326">Продажи онлайн</text>
-          <text x="44" y="96" font-size="15" fill="#4a4b4f">витрина и каналы продаж</text>
+          <rect x="20" y="20" width="790" height="120" rx="16" fill="#fde8e2" class="ep1-load" style="animation-delay:0.4s"/>
+          <text x="44" y="70" font-size="22" font-weight="700" fill="#1f2326" class="ep1-load" style="animation-delay:0.4s">Продажи онлайн</text>
+          <text x="44" y="96" font-size="15" fill="#4a4b4f" class="ep1-load" style="animation-delay:0.4s">витрина и каналы продаж</text>
           <g font-size="16" font-weight="600" fill="#1f2326" text-anchor="middle">
-            <rect x="290" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="365" y="86">Сайт на Битрикс</text>
-            <rect x="465" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="540" y="86">Маркетплейсы</text>
-            <rect x="640" y="52" width="150" height="56" rx="10" fill="#fff"/><text x="715" y="86">Интернет-реклама</text>
+            <rect x="290" y="52" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="365" y="86">Сайт на Битрикс</text>
+            <rect x="465" y="52" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="540" y="86">Маркетплейсы</text>
+            <rect x="640" y="52" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="715" y="86">Интернет-реклама</text>
           </g>
           <!-- слой 2 -->
-          <rect x="20" y="195" width="790" height="120" rx="16" fill="#eef0f2"/>
-          <text x="44" y="245" font-size="22" font-weight="700" fill="#1f2326">Учёт и программы</text>
-          <text x="44" y="271" font-size="15" fill="#4a4b4f">деньги, документы, процессы</text>
+          <rect x="20" y="195" width="790" height="120" rx="16" fill="#eef0f2" class="ep1-load" style="animation-delay:0.2s"/>
+          <text x="44" y="245" font-size="22" font-weight="700" fill="#1f2326" class="ep1-load" style="animation-delay:0.2s">Учёт и программы</text>
+          <text x="44" y="271" font-size="15" fill="#4a4b4f" class="ep1-load" style="animation-delay:0.2s">деньги, документы, процессы</text>
           <g font-size="16" font-weight="600" fill="#1f2326" text-anchor="middle">
-            <rect x="290" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="365" y="261">1С:Бухгалтерия</text>
-            <rect x="465" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="540" y="261">ЭДО</text>
-            <rect x="640" y="227" width="150" height="56" rx="10" fill="#fff"/><text x="715" y="261">Отраслевое ПО</text>
+            <rect x="290" y="227" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="365" y="261">1С:Бухгалтерия</text>
+            <rect x="465" y="227" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="540" y="261">ЭДО</text>
+            <rect x="640" y="227" width="150" height="56" rx="10" fill="#fff" class="ep1-hover"/><text x="715" y="261">Отраслевое ПО</text>
           </g>
           <!-- слой 3 -->
-          <rect x="20" y="370" width="790" height="120" rx="16" fill="#262a2c"/>
-          <text x="44" y="420" font-size="22" font-weight="700" fill="#fff">Инфраструктура</text>
-          <text x="44" y="446" font-size="15" fill="#c3c7cb">серверы, данные, защита</text>
+          <rect x="20" y="370" width="790" height="120" rx="16" fill="#262a2c" class="ep1-load" style="animation-delay:0s"/>
+          <text x="44" y="420" font-size="22" font-weight="700" fill="#fff" class="ep1-load" style="animation-delay:0s">Инфраструктура</text>
+          <text x="44" y="446" font-size="15" fill="#c3c7cb" class="ep1-load" style="animation-delay:0s">серверы, данные, защита</text>
           <g font-size="16" font-weight="600" fill="#fff" text-anchor="middle">
-            <rect x="290" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="365" y="436">Серверы и хостинг</text>
-            <rect x="465" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="540" y="436">Резервные копии</text>
-            <rect x="640" y="402" width="150" height="56" rx="10" fill="#3a4043"/><text x="715" y="436">Защита и аудит</text>
+            <rect x="290" y="402" width="150" height="56" rx="10" fill="#3a4043" class="ep1-hover"/><text x="365" y="436">Серверы и хостинг</text>
+            <rect x="465" y="402" width="150" height="56" rx="10" fill="#3a4043" class="ep1-hover"/><text x="540" y="436">Резервные копии</text>
+            <rect x="640" y="402" width="150" height="56" rx="10" fill="#3a4043" class="ep1-hover"/><text x="715" y="436">Защита и аудит</text>
           </g>
           <!-- связи между слоями -->
           <g stroke="#f76241" stroke-width="2.5" fill="none">
-            <path d="M345 142 V193" marker-end="url(#ah)"/>
-            <path d="M385 193 V142" marker-end="url(#ah)"/>
-            <path d="M345 317 V368" marker-end="url(#ah)"/>
-            <path d="M385 368 V317" marker-end="url(#ah)"/>
+            <path d="M345 142 V193" marker-end="url(#ep1-ah)"/>
+            <path d="M385 193 V142" marker-end="url(#ep1-ah)"/>
+            <path d="M345 317 V368" marker-end="url(#ep1-ah)"/>
+            <path d="M385 368 V317" marker-end="url(#ep1-ah)"/>
           </g>
           <g font-size="14" fill="#4a4b4f">
             <text x="398" y="172">заказы ↓  остатки и цены ↑</text>
             <text x="398" y="347">базы данных ↓  восстановление ↑</text>
           </g>
           <!-- E-Pult -->
-          <rect x="840" y="20" width="140" height="470" rx="16" fill="#c9401f"/>
+          <rect x="840" y="20" width="140" height="470" rx="16" fill="#c9401f" class="ep1-load ep1-pulse" style="animation-delay:0.4s"/>
           <g fill="#fff" text-anchor="middle">
             <text x="910" y="220" font-size="26" font-weight="700">E-Pult</text>
             <text x="910" y="252" font-size="15">одно окно</text>
@@ -142,9 +161,9 @@
             <text x="910" y="292" font-size="15">трёх слоёв</text>
           </g>
           <g stroke="#c9401f" stroke-width="2" stroke-dasharray="5 5">
-            <path d="M812 80 H838"/><path d="M812 255 H838"/><path d="M812 430 H838"/>
+            <path d="M812 80 H838" class="ep1-flow"/><path d="M812 255 H838" class="ep1-flow"/><path d="M812 430 H838" class="ep1-flow"/>
           </g>
-        </g>
+        <circle class="ep1-dot" r="4" style="offset-path:path('M345 142 V193');--dur:2.8s;animation-delay:0.0s;"/><circle class="ep1-dot" r="4" style="offset-path:path('M385 193 V142');--dur:2.8s;animation-delay:-0.5s;"/><circle class="ep1-dot" r="4" style="offset-path:path('M345 317 V368');--dur:2.8s;animation-delay:-1.0s;"/><circle class="ep1-dot" r="4" style="offset-path:path('M385 368 V317');--dur:2.8s;animation-delay:-1.5s;"/></g>
       </svg>
       <figcaption>Когда один подрядчик видит всю цепочку, проблемы ищутся быстрее: не нужно выяснять, «чья это зона».</figcaption>
     </figure>
@@ -192,7 +211,7 @@
         <li><strong style="color:#fff">Понятный язык.</strong> Объясняем, что сделали и зачем, без лишнего жаргона. Консультируем ваших сотрудников.</li>
       </ul>
     </div>
-    <figure class="pic "><img src="img/why-epult.webp" alt="Инженер E-Pult проверяет резервные копии и состояние серверов" loading="lazy" onerror="this.remove()"><figcaption>img/why-epult.webp</figcaption></figure>
+    <figure class="pic "><img data-light="img/why-epult.webp" data-dark="img/why-epult-dark.webp" alt="Инженер E-Pult проверяет резервные копии и состояние серверов" loading="lazy"><noscript><img src="img/why-epult.webp" alt="Инженер E-Pult проверяет резервные копии и состояние серверов"></noscript><figcaption>img/why-epult.webp<br>img/why-epult-dark.webp</figcaption></figure>
   </div>
 </section>
 

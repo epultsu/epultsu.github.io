@@ -1,5 +1,60 @@
 // E-Pult: меню и форма заявки. Без внешних библиотек.
 (function () {
+
+  // Переключатель темы: выбор сохраняется в браузере; без выбора — как в системе.
+  var root = document.documentElement;
+  var btn = document.querySelector('.theme-toggle');
+  var meta = document.querySelector('meta[name="theme-color"]');
+  function apply(t) {
+    root.setAttribute('data-theme', t);
+    if (btn) {
+      var dark = t === 'dark';
+      btn.setAttribute('aria-label', dark ? 'Включить светлую тему' : 'Включить тёмную тему');
+      btn.setAttribute('title', dark ? 'Светлая тема' : 'Тёмная тема');
+    }
+    if (meta) meta.setAttribute('content', t === 'dark' ? '#0e1113' : '#262a2c');
+    setImages(t);
+  }
+
+  // Картинки для темы: в тёмной берём файл с суффиксом -dark, в светлой — обычный.
+  // Если тёмной версии нет, показываем светлую; если нет и её — остаётся рамка-заглушка.
+  function setImages(t) {
+    document.querySelectorAll('img[data-light]').forEach(function (img) {
+      if (!img._ep) {
+        img._ep = true;
+        img.addEventListener('error', function () {
+          var cur = img.getAttribute('src');
+          if (cur === img.dataset.dark && !img._fellBack) {
+            img._fellBack = true;
+            img.setAttribute('src', img.dataset.light);
+          } else {
+            img.hidden = true;
+          }
+        });
+        img.addEventListener('load', function () { img.hidden = false; });
+      }
+      var want = t === 'dark' ? img.dataset.dark : img.dataset.light;
+      if (t === 'dark' && img._fellBack) want = img.dataset.light;
+      if (img.getAttribute('src') !== want) img.setAttribute('src', want);
+    });
+  }
+  apply(root.getAttribute('data-theme') || 'light');
+  if (btn) {
+    btn.addEventListener('click', function () {
+      var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      apply(t);
+      try { localStorage.setItem('theme', t); } catch (e) {}
+    });
+  }
+  if (window.matchMedia) {
+    var mq = matchMedia('(prefers-color-scheme: dark)');
+    var onChange = function (e) {
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (err) {}
+      if (!saved) apply(e.matches ? 'dark' : 'light');
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onChange); else if (mq.addListener) mq.addListener(onChange);
+  }
   var toggle = document.querySelector('.menu-toggle');
   var nav = document.getElementById('nav');
   if (toggle && nav) {
